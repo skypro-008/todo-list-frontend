@@ -2,9 +2,9 @@
 Курс 7
 
 master - Урок 34 и 35
-lesson-35 - Урок 36
-lesson-36 - Урок 37
-lesson-37 - Урок 38
+lesson-36 - Урок 36
+lesson-37 - Урок 37
+lesson-38 - Урок 38
 
 ## Development server
 
