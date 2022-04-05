@@ -1,11 +1,10 @@
 # Skypro
-Курс 6
-https://skyengpublic.notion.site/PD-db5795fb1c9640338a7947e49a9acafd
+Курс 7
 
-master - Урок 34
-lesson-35 - Урок 35
-lesson-36 - Урок 36
-lesson-37 - Урок 36
+master - Урок 34 и 35
+lesson-35 - Урок 36
+lesson-36 - Урок 37
+lesson-37 - Урок 38
 
 ## Development server
 
