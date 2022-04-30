@@ -16,7 +16,7 @@ export function setErrorToForm(form: FormGroup, errors: ApiErrors): void {
 }
 
 export function getErrors(httpError: HttpErrorResponse): { nonFieldErrors: string[], apiErrors: ApiErrors } {
-  if (httpError.status === 403) {
+  if (httpError.status === 403 && !httpError?.error) {
     return {
       apiErrors: {},
       nonFieldErrors: ['Forbidden']
