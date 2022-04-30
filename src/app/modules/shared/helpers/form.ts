@@ -20,7 +20,21 @@ export function setErrorToControl(control: AbstractControl, errors: string[]): v
 }
 
 export function getErrors(httpError: HttpErrorResponse): { nonFieldErrors: string[], apiErrors: ApiErrors } {
-  if (httpError.status === 500) {
+  if (httpError.status === 403) {
+    return {
+      apiErrors: {},
+      nonFieldErrors: ['Forbidden']
+    }
+  }
+
+  if (httpError.status === 405) {
+    return {
+      apiErrors: {},
+      nonFieldErrors: ['Method not allowed']
+    }
+  }
+
+  if (httpError.status === 500 || !httpError?.error) {
     return {
       apiErrors: {},
       nonFieldErrors: ['Server error 500']
