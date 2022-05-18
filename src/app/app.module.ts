@@ -50,6 +50,7 @@ import { MatTooltipModule } from "@angular/material/tooltip";
 import { BoardsComponent } from './modules/board/components/boards/boards.component';
 import { BoardEditComponent } from './modules/board/components/board-edit/board-edit.component';
 import { ParticipantsComponent } from './modules/shared/components/participants/participants.component';
+import { VkLoggedInComponent } from './modules/auth/components/vk-logged-in/vk-logged-in.component';
 
 const MY_FORMATS = {
   parse: {
@@ -83,6 +84,7 @@ const MY_FORMATS = {
     GoalCardComponent,
     GoalDetailComponent,
     CommentComponent,
+    VkLoggedInComponent,
     BoardsComponent,
     BoardEditComponent,
     ParticipantsComponent,
