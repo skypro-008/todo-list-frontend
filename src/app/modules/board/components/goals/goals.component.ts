@@ -125,12 +125,6 @@ export class GoalsComponent implements OnDestroy, OnInit {
 
     this.dialog.open(GoalEditComponent, {
       data: goal,
-      ...(!doomRect ? {} : {
-        position: {
-          top: Math.min(doomRect.top + 50, maxTop) + 'px',
-          left: doomRect.left + 'px'
-        }
-      })
     });
   }
 
