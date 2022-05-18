@@ -26,6 +26,7 @@ import { SignUpComponent } from "./modules/auth/components/sign-up/sign-up.compo
 import { ProfileComponent } from "./modules/main/components/profile/profile.component";
 import { CsrfInterceptor } from "./modules/main/interseptor/csrf-interceptor.service";
 import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
+import { VkLoggedInComponent } from './modules/auth/components/vk-logged-in/vk-logged-in.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
     SignUpComponent,
     RightSidePanelComponent,
     ProfileComponent,
+    VkLoggedInComponent,
   ],
   imports: [
     CommonModule,
