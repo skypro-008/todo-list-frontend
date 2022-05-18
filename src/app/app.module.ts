@@ -59,6 +59,7 @@ const MY_FORMATS = {
     monthYearA11yLabel: 'YYYY'
   }
 }
+import { VkLoggedInComponent } from './modules/auth/components/vk-logged-in/vk-logged-in.component';
 
 @NgModule({
   declarations: [
@@ -80,6 +81,7 @@ const MY_FORMATS = {
     GoalCardComponent,
     GoalDetailComponent,
     CommentComponent,
+    VkLoggedInComponent,
   ],
   imports: [
     BrowserAnimationsModule,
