@@ -42,6 +42,6 @@ export class GoalCardComponent implements OnChanges {
       return false;
     }
 
-    return differenceInDays(new Date(), new Date(this.goal.due_date)) > 1;
+    return differenceInDays(new Date(), new Date(this.goal.due_date)) > 0;
   }
 }
