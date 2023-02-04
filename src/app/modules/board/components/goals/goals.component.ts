@@ -207,14 +207,14 @@ export class GoalsComponent implements OnDestroy, OnInit {
   }
 
   private loadGoals(query: DataSourceQuery<SearchForm>): Observable<ResultPage<Goal>> {
-    if (!query.search.category__in || !query.search.category__in.length) {
-      return of({
-        count: 0,
-        next: null,
-        previous: null,
-        results: []
-      })
-    }
+    // if (!query.search.category__in || !query.search.category__in.length) {
+    //   return of({
+    //     count: 0,
+    //     next: null,
+    //     previous: null,
+    //     results: []
+    //   })
+    // }
 
     return this.goalsService.loadGoals({
       offset: query.offset,
