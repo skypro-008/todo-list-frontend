@@ -43,14 +43,14 @@
 
     <app-form-field
       class="field -date"
-      [control]="dataSource?.searchForm.get('due_date__lte')"
+      [control]="dataSource?.searchForm.get('due_date__gte')"
       placeholder="Дедлайн с"
       type="date"
     ></app-form-field>
 
     <app-form-field
       class="field -date"
-      [control]="dataSource?.searchForm.get('due_date__gte')"
+      [control]="dataSource?.searchForm.get('due_date__lte')"
       placeholder="Дедлайн до"
       type="date"
     ></app-form-field>
