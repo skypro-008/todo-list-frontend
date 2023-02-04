@@ -52,6 +52,7 @@ import { BoardEditComponent } from './modules/board/components/board-edit/board-
 import { ParticipantsComponent } from './modules/shared/components/participants/participants.component';
 import { VkLoggedInComponent } from './modules/auth/components/vk-logged-in/vk-logged-in.component';
 import { BotVerificationComponent } from './modules/board/components/bot-verification/bot-verification.component';
+import {PasswordFieldComponent} from "./modules/shared/components/password-field/password-field.component";
 
 const MY_FORMATS = {
   parse: {
@@ -66,31 +67,32 @@ const MY_FORMATS = {
 }
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    AuthPageComponent,
-    FormFieldComponent,
-    HeaderComponent,
-    LayoutComponent,
-    LoginComponent,
-    MenuComponent,
-    SignUpComponent,
-    RightSidePanelComponent,
-    ProfileComponent,
-    CategoriesComponent,
-    EditCategoryComponent,
-    PaginatorComponent,
-    GoalsComponent,
-    GoalEditComponent,
-    GoalCardComponent,
-    GoalDetailComponent,
-    CommentComponent,
-    VkLoggedInComponent,
-    BoardsComponent,
-    BoardEditComponent,
-    ParticipantsComponent,
-    BotVerificationComponent,
-  ],
+    declarations: [
+        AppComponent,
+        AuthPageComponent,
+        FormFieldComponent,
+        HeaderComponent,
+        LayoutComponent,
+        LoginComponent,
+        MenuComponent,
+        SignUpComponent,
+        RightSidePanelComponent,
+        ProfileComponent,
+        CategoriesComponent,
+        EditCategoryComponent,
+        PaginatorComponent,
+        GoalsComponent,
+        GoalEditComponent,
+        GoalCardComponent,
+        GoalDetailComponent,
+        CommentComponent,
+        VkLoggedInComponent,
+        BoardsComponent,
+        BoardEditComponent,
+        ParticipantsComponent,
+        BotVerificationComponent,
+        PasswordFieldComponent,
+    ],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,

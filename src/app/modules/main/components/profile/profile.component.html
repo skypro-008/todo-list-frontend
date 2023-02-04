@@ -29,17 +29,17 @@
 <div class="divider"></div>
 
 <form [formGroup]="formPassword" (submit)="updatePassword()">
-  <app-form-field
+  <app-password-field
     class="field"
     [placeholder]="'Старый пароль'"
     [control]="formPassword.get('old_password')"
-  ></app-form-field>
+  ></app-password-field>
 
-  <app-form-field
+  <app-password-field
     class="field"
     [placeholder]="'Новый пароль'"
     [control]="formPassword.get('new_password')"
-  ></app-form-field>
+  ></app-password-field>
 
   <button class="update-password-button" mat-raised-button color="primary" type="submit">Изменить пароль</button>
 </form>
